@@ -1,0 +1,7 @@
+ scripts:
+     - name: IAScaleAction
+       description: Resize virtual machines in a CAM service instance
+       scriptPath: ../actions/IA_scale.py
+       entityType: VIRTUAL_MACHINE
+       actionType:  SCALE
+       actionPhase: REPLACE
